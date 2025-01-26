@@ -5,7 +5,7 @@ import { FaDownload } from "react-icons/fa";
 function HomeHero() {
   const handlePreview = () => {
     // Open the PDF in a new tab
-    window.open("https://drive.google.com/file/d/1BzrwtKm1pbBEIzw5rO7nfAll_8Hq_eBU/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1cIWBASiJ49iLdjobXmRy50zAmnMNj0UZ/view?usp=sharing", "_blank");
   };
   return (
     <div className='lg:max-w-6xl max-w-[95vw] h-[90svh] mx-auto lg:pt-10 lg:mt-0 mt-[4rem]'>
