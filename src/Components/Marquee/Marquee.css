@@ -1,0 +1,10 @@
+.marquee-text {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    transition: color 0.3s ease, -webkit-text-stroke 0.3s ease;
+  }
+  
+  .marquee-text:hover {
+    color: white;
+    -webkit-text-stroke: 2px transparent;
+  }

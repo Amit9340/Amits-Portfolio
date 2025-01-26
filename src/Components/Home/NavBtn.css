@@ -1,0 +1,48 @@
+.Navbtn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.Navbtn:active {
+    transform: translateY(1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.Navbtn::after {
+    content: "";
+    display: inline-block;
+    height: 6vh;
+    width: 10vw;
+    border-radius: 6px;
+    position: absolute;
+    z-index: -60;
+    transition: all .4s;
+}
+
+.btn-blue1::after {
+    background: linear-gradient(to right, #0369a1 0%, #38bdf8 50%, #38bdf8 99%);
+}
+
+.Navbtn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
