@@ -31,7 +31,7 @@ function Bottom() {
 
     const handlePreview = () => {
         // Open the PDF in a new tab
-        window.open("https://drive.google.com/file/d/1BzrwtKm1pbBEIzw5rO7nfAll_8Hq_eBU/view?usp=sharing", "_blank");
+        window.open("https://drive.google.com/file/d/1cIWBASiJ49iLdjobXmRy50zAmnMNj0UZ/view?usp=sharing", "_blank");
       };
       
   return (
